@@ -1,0 +1,75 @@
+.bodyWrapper {
+  width: 90%;
+  margin-right: 6%;
+  margin-left: 6%;
+  display: flex;
+  flex-direction: column;
+}
+
+.search {
+  margin-top: 15px;
+  margin-right: 10px;
+  align-self: flex-end;
+}
+
+.searchInput {
+  padding: 2px 15px;
+  margin-right: 10px;
+  color: black;
+  font-weight: 400;
+}
+.searchBtn {
+  width: 60px;
+  height: 30px;
+  padding: 4px;
+  font-size: 12px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  color: white;
+  background: rgb(229 85 30);
+}
+
+.searchBtn:hover {
+  cursor: pointer;
+}
+
+.inputFields {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 10px;
+}
+.radioBtn,
+.radioLabel {
+  margin-right: 10px;
+}
+
+.catButtons {
+  /* width: 22%; */
+  display: flex;
+  float: right;
+  justify-content: space-between;
+}
+
+.catBtn {
+  width: 60px;
+  height: 35px;
+  padding: 2px 6px;
+  margin-right: 7px;
+  background: blue;
+  border: none;
+  color: white;
+  font-size: 12px;
+  border-radius: 10px;
+}
+.catBtnLast {
+  width: 60px;
+  height: 35px;
+  padding: 2px 6px;
+  background: blue;
+  border: none;
+  color: white;
+  font-size: 12px;
+  border-radius: 10px;
+}
